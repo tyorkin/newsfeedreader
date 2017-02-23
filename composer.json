@@ -1,0 +1,17 @@
+{
+  "name": "tyorkin/news-feed-reader",
+  "description": "news feed reader",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "require": {
+    "php": ">=5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "NewsFeedReader\\": "/",
+      "NewsFeedReader\\Provider\\": "/Provider",
+      "NewsFeedReader\\Exception\\": "/Exception",
+      "NewsFeedReader\\Client\\": "/Client"
+    }
+  }
+}
